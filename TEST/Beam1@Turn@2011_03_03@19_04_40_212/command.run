@@ -1,0 +1,4 @@
+Command => /usr/bin/python   /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src///Analyses/svd_clean.BUGFIX.py  -f/user/slops/data/LHC_DATA/OP_DATA/Betabeat/3-3-2011/LHCB1/Measurements/Beam1@Turn@2011_03_03@19_04_40_212//Beam1@Turn@2011_03_03@19_04_40_212_0.sdds.new -t 1 -p 0.00001 -s 0.925 -v 1000
+
+Command => /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src///DRIVE_src.Mcintosh/Drive_God_lin  /user/slops/data/LHC_DATA/OP_DATA/Betabeat/3-3-2011/LHCB1/Measurements/Beam1@Turn@2011_03_03@19_04_40_212
+

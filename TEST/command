@@ -1,0 +1,3 @@
+export=OMP_NUM_THREADS=24
+cd /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src/DRIVE_src.Harry/TEST/
+time ../Drive_God_lin ./

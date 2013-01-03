@@ -1,0 +1,12 @@
+rm /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src/DRIVE_src.Harry/TEST/tbach/workdir/Beam1@Turn@2012_03_15@09_28_21_723_0.sdds.new.new_linx
+rm /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src/DRIVE_src.Harry/TEST/tbach/workdir/Beam1@Turn@2012_03_15@09_28_21_723_0.sdds.new.new_liny
+
+ssh cs-ccr-optics1 /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src/DRIVE_src.Harry/TEST/tbach/Drive_God_lin /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src/DRIVE_src.Harry/TEST/tbach/workdir/
+echo ""
+echo "-------------------------------"
+echo ""
+echo "diff:"
+echo ""
+
+diff /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src/DRIVE_src.Harry/TEST/tbach/workdir/ /afs/cern.ch/eng/sl/lintrack/Beta-Beat.src/DRIVE_src.Harry/TEST/tbach/orig/
+

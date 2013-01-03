@@ -1,0 +1,36 @@
+This directory contains some sort of a test suite.
+Just call the run_test and see it working.
+If everything went fine, you wont see any (real) output from diff
+If you see output from diff or error messages, there are most likely some problems
+There could be some difference because of floating point operations,
+which are done in random order in the parallel code. This should only affect a not
+significant part of the result like: "3.113734e-06" instead of "3.113739e-06"
+
+Explanations:
+run_test will first clean up previous stuff
+then it will call the drive binary in the current directory
+then it will diff the results to some given results
+
+Updates (what to change if something has to be updated or changed):
+-server
+edit run_test
+
+-drive source
+copy to this directory with the correct file name
+source the icc:
+source /afs/cern.ch/sw/IntelSoftware/linux/all-setup.csh ia32
+compile with:
+make
+if different file name, edit Makefile and run_test
+
+-new output to compare against
+rename orig/ to orig_somehelpfulname/
+create orig/
+put new expected output in orig/
+
+-path
+change run_test (multiple lines)
+change DrivingTerms in workdir
+
+
+tbach 2012/11

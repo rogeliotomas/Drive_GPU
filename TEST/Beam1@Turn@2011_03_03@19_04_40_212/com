@@ -1,0 +1,6 @@
+export OMP_NUM_THREADS=2
+/afs/cern.ch/eng/sl/lintrack/Beta-Beat.src///DRIVE_src.Harry/Drive_God_lin ./
+exit
+/afs/cern.ch/eng/sl/lintrack/Beta-Beat.src//DRIVE_src.Mcintosh/Drive_God_lin ./
+exit
+/afs/cern.ch/eng/sl/lintrack/Beta-Beat.src///DRIVE_src.Harry/Drive_God_lin ./
